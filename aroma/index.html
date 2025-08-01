@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aroma – Premium Perfume Brand</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header role="banner">
+  <div class="header-inner container">
+    <a href="#" class="logo" aria-label="Aroma Fragrances Home">Aroma</a>
+    <nav class="desktop-nav" role="navigation" aria-label="Primary navigation">
+      <a href="#perfumes" tabindex="0">Perfumes</a>
+      <a href="#about" tabindex="0">About</a>
+      <a href="#services" tabindex="0">Services</a>
+      <a href="#contact" tabindex="0">Contact</a>
+    </nav>
+    <button 
+      class="hamburger" 
+      aria-label="Menu" 
+      aria-expanded="false" 
+      aria-controls="mobile-navigation"
+      id="hamburgerBtn"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" id="mobile-navigation" role="navigation" aria-label="Mobile navigation">
+    <a href="#perfumes" tabindex="-1">Perfumes</a>
+    <a href="#about" tabindex="-1">About</a>
+    <a href="#services" tabindex="-1">Services</a>
+    <a href="#contact" tabindex="-1">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" role="region" aria-label="Introduction">
+    <h1>Indulge in the Essence of Pure Luxury</h1>
+    <p>Explore timeless fragrances that elevate elegance, passion, and sophistication in every drop.</p>
+    <button class="btn-primary" tabindex="0" type="button" onclick="document.getElementById('perfumes').scrollIntoView({behavior:'smooth'})">Browse Scents</button>
+  </section>
+
+  <section id="perfumes" class="container" role="region" aria-label="Featured Perfumes" tabindex="-1">
+    <h2 class="section-title">Featured Fragrances</h2>
+    <div class="boat-grid">
+      <article class="boat-card" tabindex="0" aria-labelledby="boat1-name boat1-desc">
+        <img src="1.jpg" alt="Elegant perfume bottle with golden accents" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat1-name" class="boat-name">Aroma Elixir No. 500</h3>
+          <p id="boat1-desc" class="boat-desc">A rich blend of oud, rose, and amber – for those who define luxury on their own terms.</p>
+          <div class="boat-price">$320</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Aroma Elixir No. 500">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat2-name boat2-desc">
+        <img src="..." alt="Crimson perfume bottle on silk fabric" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat2-name" class="boat-name">Velvet Rush 300</h3>
+          <p id="boat2-desc" class="boat-desc">A daring mix of vanilla and musk that ignites confidence and allure.</p>
+          <div class="boat-price">$210</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Velvet Rush 300">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat3-name boat3-desc">
+        <img src="..." alt="Minimalist perfume bottle with earthy tones" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat3-name" class="boat-name">Mystic Flora 250</h3>
+          <p id="boat3-desc" class="boat-desc">A botanical harmony of jasmine, neroli, and citrus — crafted for timeless grace.</p>
+          <div class="boat-price">$165</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Mystic Flora 250">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat4-name boat4-desc">
+        <img src="..." alt="Perfume bottle with oceanic blue color scheme" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat4-name" class="boat-name">Azure Whisper 410</h3>
+          <p id="boat4-desc" class="boat-desc">A breezy aquatic scent inspired by the serenity of open waters.</p>
+          <div class="boat-price">$185</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Azure Whisper 410">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat5-name boat5-desc">
+        <img src="..." alt="Perfume bottle with gold shimmer" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat5-name" class="boat-name">Golden Aura 360</h3>
+          <p id="boat5-desc" class="boat-desc">A radiant fragrance with hints of saffron and sandalwood.</p>
+          <div class="boat-price">$245</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Golden Aura 360">Learn More</button>
+        </div>
+      </article>
+      <article class="boat-card" tabindex="0" aria-labelledby="boat6-name boat6-desc">
+        <img src="..." alt="Black matte perfume bottle with sleek design" class="boat-image" />
+        <div class="boat-content">
+          <h3 id="boat6-name" class="boat-name">Noir Essence 470</h3>
+          <p id="boat6-desc" class="boat-desc">Bold and enigmatic with deep notes of patchouli, leather, and spice.</p>
+          <div class="boat-price">$295</div>
+          <button class="btn-secondary" type="button" aria-label="Learn more about Noir Essence 470">Learn More</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about-section container" role="region" aria-label="About Aroma">
+    <img src="..." alt="Aroma fragrance laboratory with elegant interiors" class="about-image" />
+    <div class="about-content">
+      <h2>About Aroma</h2>
+      <p>Since our founding in 2001, Aroma has pioneered the craft of fine perfumery, blending heritage with modern sophistication. Every bottle is a sensory journey — designed to captivate and inspire.</p>
+      <p>Our commitment to excellence and artistry has made Aroma a hallmark of elegance across the globe.</p>
+    </div>
+  </section>
+
+  <section id="services" class="container services" role="region" aria-label="Our Services" tabindex="-1">
+    <h2 class="section-title">Our Services</h2>
+    <div class="services-list">
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" ...></svg>
+        <div class="service-content">
+          <h3 class="service-title">Bespoke Fragrance Creation</h3>
+          <p class="service-desc">Partner with our master perfumers to design a scent that is uniquely yours.</p>
+        </div>
+      </div>
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" ...></svg>
+        <div class="service-content">
+          <h3 class="service-title">Refill & Bottle Care</h3>
+          <p class="service-desc">Maintain the brilliance of your Aroma bottle with exclusive refill and care options.</p>
+        </div>
+      </div>
+      <div class="service-card" tabindex="0">
+        <svg class="service-icon" ...></svg>
+        <div class="service-content">
+          <h3 class="service-title">Gifting & Personalization</h3>
+          <p class="service-desc">Make your moments memorable with luxury gifting and custom packaging.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section" role="region" aria-label="Contact Aroma">
+    <h2>Contact Us</h2>
+    <form class="contact-form" aria-describedby="contact-desc" novalidate>
+      <label for="name">
+        Name
+        <input type="text" id="name" name="name" placeholder="Your full name" required aria-required="true" />
+      </label>
+      <label for="email">
+        Email
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required aria-required="true" />
+      </label>
+      <label for="message">
+        Message
+        <textarea id="message" name="message" rows="5" placeholder="Your message or inquiry" required aria-required="true"></textarea>
+      </label>
+      <button class="btn-primary-submit" type="submit" aria-label="Submit contact form">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer role="contentinfo">
+  <div class="footer-container container">
+    <div class="footer-section" aria-label="Company information">
+      <h3>Aroma</h3>
+      <p>Signature fragrances crafted with passion and precision. Discover your essence.</p>
+    </div>
+    <nav class="footer-section" aria-label="Footer navigation">
+      <h3>Navigate</h3>
+      <a href="#perfumes">Perfumes</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-section" aria-label="Contact information">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:aa3981863@gmail.com">aa3981863@gmail.com</a></p>
+      <p>Phone: <a href="tel:+18001234567">+1 (800) 123-4567</a></p>
+      <p>Address: Faizabad Ayodhya Uttar Pradesh, India</p>
+    </div>
+    <div class="footer-section" aria-label="Social media links">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <!-- Social icons remain unchanged -->
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom" tabindex="0">&copy; 2025 Aroma Fragrances. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
