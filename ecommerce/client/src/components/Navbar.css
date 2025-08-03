@@ -1,0 +1,37 @@
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 1.5rem;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #cccccc;
+}
+
+.navbar .right-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logout-button {
+  background-color: #e3342f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #cc1f1a;
+}
