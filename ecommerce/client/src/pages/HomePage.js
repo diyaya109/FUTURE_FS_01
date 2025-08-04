@@ -42,9 +42,22 @@ const HomePage = () => {
         {products.slice(0, visibleCount).map(product => (
           <div key={product._id} className="col-md-3 mb-4">
             <ProductCard product={product} />
-            <button className="btn btn-primary" onClick={() => addToCart(product)}>
-               Add to Cart
-            </button>
+            <button
+  className="btn btn-primary"
+  onClick={() =>
+    addToCart({
+      _id: product._id,
+      name: product.name,
+      price: product.price,
+      image: product.image,
+      quantity: 1,
+    })
+  }
+>
+  Add to Cart
+</button>
+
+          
           </div>
         ))}
       </div>

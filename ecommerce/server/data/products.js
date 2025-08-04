@@ -18,7 +18,7 @@ const products = [
   {
     name: "Canon EOS 80D DSLR Camera",
     price: 799.99,
-    image: "https://images.unsplash.com/photo-1593642634367-d91a135587b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1549921824-933ea5d8969f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Versatile DSLR with intelligent viewfinder and 45-point all cross-type AF system.",
     brand: "Canon",
     category: "Cameras"
@@ -53,7 +53,7 @@ const products = [
   category: "Electronics",
   brand: "Noise",
   description: "Fitness & health smartwatch with AMOLED display.",
-  image: "https://unsplash.com/photos/black-smartwatch-with-gray-strap-BGGHiSp2Quw"
+  image: "https://images.unsplash.com/photo-1569411032431-07598b0012c2?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
   name: "Sony Bluetooth Speaker",
@@ -61,7 +61,7 @@ const products = [
   category: "Audio",
   brand: "Sony",
   description: "Portable wireless speaker with deep bass.",
-  image: "https://unsplash.com/photos/black-and-red-happy-birthday-hat-0GCw3lAsfT0"
+  image: "https://images.unsplash.com/photo-1618532498309-08ba18e6da89?q=80&w=574&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
   name: "Adidas Sneakers",
@@ -69,7 +69,7 @@ const products = [
   category: "Fashion",
   brand: "Adidas",
   description: "Stylish and comfortable everyday wear.",
-  image: "https://unsplash.com/photos/unpaired-black-and-white-adidas-low-top-sneaker-Jq3IXFoEeUU"
+  image: "https://images.unsplash.com/photo-1670416035623-6538fd6810c9?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
 ];
 

@@ -26,7 +26,7 @@ const Checkout = () => {
                 <Row>
                   <Col md={6}>{item.name}</Col>
                   <Col md={3}>Qty: {item.qty}</Col>
-                  <Col md={3}>₹{item.price * item.qty}</Col>
+                  <Col md={3}>${item.price * item.qty}</Col>
                 </Row>
               </ListGroup.Item>
             ))}
@@ -42,7 +42,7 @@ const Checkout = () => {
               <ListGroup.Item>
                 <Row>
                   <Col>Total</Col>
-                  <Col>₹{total}</Col>
+                  <Col>${total}</Col>
                 </Row>
               </ListGroup.Item>
               <ListGroup.Item>
